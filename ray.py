@@ -5,7 +5,6 @@ from plane import *
 from cube import *
 from pyramid import *
 from cylinder import *
-from cone import *
 from map import *
 from math import pi, tan
 
@@ -133,9 +132,9 @@ r.scene = [
   #arboles
   Sphere(V3(-3,-1,-5),0.7,lightGreen),
   Cylinder(0.5, 1, V3(-5,-4,-8), coffee),
-  Sphere(V3(0,-1,-5),0.7,darkGreen),
+  Sphere(V3(0,-1,-5),0.7,lightGreen),
   Cylinder(0.5, 1, V3(0,-4,-8), coffee),
-  Sphere(V3(3,-1,-5),0.7,darkGreen),
+  Sphere(V3(3,-1,-5),0.7,lightGreen),
   Cylinder(0.5, 1, V3(5,-4,-8), coffee),
   #sol
   Sphere(V3(0, 5, -13 ), 1, yellow),
